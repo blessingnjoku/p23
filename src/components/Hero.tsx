@@ -60,8 +60,7 @@ const HeroImg = styled.img`
        display: none;
   }
   @media (max-width: 600px) {
- \
-
+ 
   }
 `;
 
@@ -143,7 +142,7 @@ const ImgWrapper = styled(motion.div)`
   }
   @media (max-width: 600px) {
     width: 100%;
-    /* max-width: 100%; */
+   
     height: 100%;
 
   
@@ -164,11 +163,7 @@ const HeroImgRight = styled.img`
   }
   @media (max-width: 600px) {
     display: none;
-    /* width: 100%;
-  width: 800px;
-  object-fit: cover;
-    margin-left: 10px;
-    margin-top: 80px; */
+
   }
 `;
 
@@ -186,8 +181,10 @@ const TextWrapper = styled(motion.div)`
     align-items: center;
     text-align: center;
     padding-right: 0;
+    padding: 0;
     padding:30px 15px;
     width: 100%;
+
    
   }
 `;
@@ -205,7 +202,9 @@ const HeroTitle = styled.h1`
     font-size: 2.5rem;
   }
   @media (max-width: 780px) {
-    font-size: 35px;
+    font-size: 1.7rem;
+
+    padding: 0 20px;
   }
 `;
 
@@ -225,7 +224,7 @@ const HeroSubtitle = styled.h2`
     font-size: 35px;
   }
   @media (max-width: 600px) {
-    font-size: 35px;
+    font-size: 1.9rem;
   }
 `;
 const MobileHeroImg = styled.img`
